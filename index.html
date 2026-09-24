@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Espejo Digital - Proyecto Escolar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header class="header">
+    <h1>El Espejo Digital</h1>
+    <p>Un cómic sobre el impacto de las redes sociales en nuestras emociones</p>
+  </header>
+
+  
+  <main class="container">
+
+    <!-- LADO IZQUIERDO: Cómic Interactivo -->
+    <section class="left-panel">
+      <h2>Muestra del Cómic</h2>
+      <div class="reader-box">
+        <img id="comic-page" src="pagina1.jpg" alt="Página del cómic">
+        <div id="block-overlay" class="overlay hidden">
+          <p>🔒 Para leer la historia completa, adquiere el cómic digital.</p>
+          <a href="https://tu-link-de-pago.com" target="_blank" class="buy-btn">Comprar Cómic Completo</a>
+        </div>
+      </div>
+      
+      <div class="controls">
+        <button id="prev-btn" disabled>Anterior</button>
+        <span id="page-num">Página 1 de 3</span>
+        <button id="next-btn">Siguiente</button>
+      </div>
+    </section>
+
+    
+    <section class="right-panel">
+      <h2>Sobre Nosotros</h2>
+      <div class="scroll-content">
+        <h3>Nuestra Historia</h3>
+        <p>Somos un grupo de estudiantes de preparatoria preocupados por el impacto del uso excesivo de las redes sociales. A través de este proyecto gráfico, buscamos visibilizar problemas reales como la ansiedad, la depresión y el aislamiento digital.</p>
+
+        <h3>Nuestra Misión</h3>
+        <p>Crear conciencia de una forma visual y accesible para jóvenes de nuestra edad, fomentando un equilibrio sano entre la vida digital y el bienestar emocional.</p>
+
+        <h3>Integrantes del Equipo</h3>
+        <ul>
+          <li><strong>Sofía Martínez:</strong> Guionista e Investigadora</li>
+          <li><strong>Carlos Gómez:</strong> Ilustrador Principal</li>
+          <li><strong>Mateo Ruiz:</strong> Desarrollo Web y Diseño</li>
+          <li><strong>Ana López:</strong> Edición y Redacción</li>
+        </ul>
+
+        <h3>¿Por qué este tema?</h3>
+        <p>Pasamos horas haciendo scroll en redes, comparando nuestras vidas con pantallas perfectas. Queremos que el lector se reconozca en estos paneles y reflexione sobre su propia salud mental.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
